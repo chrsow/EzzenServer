@@ -35,7 +35,7 @@ PORT = 8888
 DB_USERNAME = 'XXX'
 DB_PASSWORD = 'XXX'
 DB_URL = 'XXX'
-# mongo ds123311.mlab.com:23311/ezzen -u ezzen -p holdthedoor
+
 
 try:
     mongo_client = MongoClient(DB_URL)
